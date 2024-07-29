@@ -5,51 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aspiring Voyage</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="icon.jpg" type="image">
+    <link rel="icon" href="a.png" type="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+BE+VLG&family=Poppins&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
         <div class="navbar">
             <div class="nav">
-                <h1 class="title">Aspiring Voyage</h1>
+                <a href="index.html"><h1 class="h1">Aspiring voyage</h1></a>
+                <div class="list">
                 <ul class="ul">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#about"><li>About us</li></a>
                     <a href="#"><li>Login</li></a>
-                    <a href="#"><li>Cart</li></a>
+                    <a href="#"><img src="cart-icon.png" height="25px" width="45px" class="cart-img"></a>
                 </ul>
+                </div>
             </div>
         </div>
     </header>
     <main class="main">
-        <input type="text" class="search-bar" placeholder="Search your Products">
+        <input type="text" class="search-bar" id="searchBar" placeholder="Search your Products">
         <h2>Mostly Visited</h2>
         <div class="products">
             <div class="pro">
-                <a href="#">
+                <a href="products.html">
                     <img src="books.avif" class="pro-img">
                     <p>Books</p>
                 </a>
             </div>
             <div class="pro">
-                <a href="#">
+                <a href="products2.html">
                     <img src="mobile.avif" class="pro-img">
                     <p>Mobiles</p>
                 </a>
             </div>
             <div class="pro">
-                <a href="#">
+                <a href="products3.html">
                     <img src="fashion.webp" class="pro-img">
                     <p>Fashions</p>
                 </a>
             </div>
             <div class="pro">
-                <a href="#">
+                <a href="products4.html">
                     <img src="cars1.jpg" class="pro-img">
                     <p>Toys</p>
                 </a>
             </div>
             <div class="pro">
-                <a href="#">
+                <a href="products5.html">
                     <img src="electronics.png" class="pro-img">
                     <p>Electronics</p>
                 </a>
@@ -93,7 +100,7 @@
                         <img class="product-image" src="plain-hooded-fleece-sweatshirt-yellow.jpg" alt="">
                     </div>
                     <div class="product-name">
-                        plain hooded fleece sweatshirt yellow
+                        Plain hooded fleece sweatshirt yellow
                     </div>
                     <div class="rating-con">
                             <img src="rating-40.png" class="rating-star">
@@ -377,7 +384,7 @@
                             <option value="">1</option>
                             <option value="">2</option>
                             <option value="">3</option>
-                            <option value=""4></option>
+                            <option value="">4</option>
                             <option value="">5</option>
                             <option value="">6</option>
                             <option value="">7</option>
@@ -421,7 +428,7 @@
             </div>
         </div>
     </main>
-            <footer>
+            <footer id="about">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-4">
@@ -432,9 +439,9 @@
                       <h3>Contact Us</h3>
                       <ul>
                         <li>123 Main St.</li>
-                        <li>Anytown, USA 12345</li>
-                        <li>Phone: (555) 123-4567</li>
-                        <li>Email: info@company.com</li>
+                        <li>Anna Nagar, Namakkal 637001</li>
+                        <li>Phone: 993-094-3452</li>
+                        <li>Email: AspiringVoyage@gmail.com</li>
                       </ul>
                     </div>
                     <div class="col-md-4">
@@ -450,5 +457,6 @@
                   </div>
                 </div>
               </footer>
+              <script src="script.js"></script>
 </body>
 </html>
