@@ -198,6 +198,9 @@ body{
     height:100px;
     width: 80px;
   }
+  .h1{
+    font-size: 25px;
+  }
   .pv{
     padding-left: 10px;
     font-size: 10px;
@@ -228,6 +231,7 @@ body{
     width: 400px;
     margin-left:20%;
   }
+
 }
 @media(max-width:450px){
   .pro-img{
@@ -272,6 +276,27 @@ body{
   }
   .ul{
     font-size: 17px;
+  }
+  .pv{
+    font-size: 10px;
+  }
+}
+@media(max-width:350px){
+  .pro-img{
+    height: 50px;
+    width: 50px;
+  }
+  .search-bar{
+    width: 300px;
+    margin-left: 12%;
+  }
+  .logo-img{
+    display: block;
+    height: 35px;
+    width: 45px;
+  }
+  .ul{
+    font-size: 15px;
   }
   .pv{
     font-size: 10px;
@@ -418,6 +443,11 @@ footer {
   @media(max-width:560px){
     .container{
       margin-bottom: 80px;
+    }
+  }
+  @media(max-width:350px){
+    .container{
+      margin-bottom: 150px;
     }
   }
 
