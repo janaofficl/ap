@@ -16,15 +16,18 @@
         <div class="navbar">
             <div class="nav">
             <div class="left-section">
-                <a href="index.html"><h1 class="h1">Aspiring voyage</h1>
                 <img src="Untitled.png" class="logo-img"></a>
+                <a href="index.html"><h1 class="h1">Aspiring&nbsp;voyage</h1>
             </div>
             <div class="right-section">
                 <ul class="ul">
                     <a href="#"><li>Home</li></a>
                     <a href="#about"><li>About us</li></a>
                     <a href="login.html"><li>Login</li></a>
-                    <a href="#"><img src="cart-icon.png" height="25px" width="45px" class="cart-img"></a>
+                    <a href="cart.html" class="cart">
+                        <img src="cart-icon.png" height="25px" width="45px" class="cart-img">
+                        <p class="cart-qty">3</p>
+                    </a>
                 </ul>
             </div>
             </div>
@@ -32,8 +35,8 @@
     </header>
     <main class="main">
         <input type="text" class="search-bar" id="searchBar" placeholder="Search your Products">
-        <h2>Mostly Visited</h2>
-        <div class="products">
+        <h2 id="ms">Mostly Visited</h2>
+        <div class="products" id="pro">
             <div class="pro">
                 <a href="products.html">
                     <img src="books.avif" class="pro-img">
@@ -71,367 +74,7 @@
         </div>
         <div class="main-products">
             <h2>Here your Products!!</h2>
-            <div class="product-grid">
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="adults-plain-cotton-tshirt-2-pack-teal.jpg" alt="">
-                    </div>
-                    <div class="product-name">
-                        Adult Plain T-shirt - 2pack
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-35.png" class="rating-star">
-                            <div class="rating-count">86</div>                    
-                    </div>
-                    <div class="product-price">
-                        $10.90
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="plain-hooded-fleece-sweatshirt-yellow.jpg" alt="">
-                    </div>
-                    <div class="product-name">
-                        Plain hooded fleece sweatshirt yellow
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-40.png" class="rating-star">
-                            <div class="rating-count">46</div>                    
-                    </div>
-                    <div class="product-price">
-                        $8.46
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="umbrella.jpg" alt="">
-                    </div>
-                    <div class="product-name">
-                        umbrella with filled with pure green
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-35.png" class="rating-star">
-                            <div class="rating-count">34</div>                    
-                    </div>
-                    <div class="product-price">
-                        $5.25
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="intermediate-composite-basketball.jpg">
-                    </div>
-                    <div class="product-name">
-                        Intermediate Composite Basketball
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-35.png" class="rating-star">
-                            <div class="rating-count">66</div>                    
-                    </div>
-                    <div class="product-price">
-                        $30.50
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="men-athletic-shoes-green.jpg" alt="">
-                    </div>
-                    <div class="product-name">
-                        Men athletic shoes with Green line
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-45.png" class="rating-star">
-                            <div class="rating-count">77</div>                    
-                    </div>
-                    <div class="product-price">
-                        $23.70
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="men-navigator-sunglasses-brown.jpg" alt="">
-                    </div>
-                    <div class="product-name">
-                        Men Navigator Sunglasses Brown- 2 pair
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-30.png" class="rating-star">
-                            <div class="rating-count">32</div>                    
-                    </div>
-                    <div class="product-price">
-                        $7.80
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="facial-tissue-2-ply-18-boxes.jpg" alt="">
-                    </div>
-                    <div class="product-name">
-                        Facial Tissue 2 ply 18 Boxes
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-45.png" class="rating-star">
-                            <div class="rating-count">56</div>                    
-                    </div>
-                    <div class="product-price">
-                        $5.30
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="trash-can-with-foot-pedal-50-liter.jpg" alt="">
-                    </div>
-                    <div class="product-name">
-                        Trash Can with foot pedal 50 liter
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-25.png" class="rating-star">
-                            <div class="rating-count">23</div>                    
-                    </div>
-                    <div class="product-price">
-                        $30.77
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="electric-glass-and-steel-hot-water-kettle.webp" alt="">
-                    </div>
-                    <div class="product-name">
-                        Electric glass and steel hot water kettle
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-40.png" class="rating-star">
-                            <div class="rating-count">87</div>                    
-                    </div>
-                    <div class="product-price">
-                        $7.7
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="men-chino-pants-beige.jpg" alt="">
-                    </div>
-                    <div class="product-name">
-                        Men chino pants beige 2-pairs
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-50.png" class="rating-star">
-                            <div class="rating-count">115</div>                    
-                    </div>
-                    <div class="product-price">
-                        $60.60
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="liquid-laundry-detergent-plain.jpg" alt="">
-                    </div>
-                    <div class="product-name">
-                        Liquid laundry detergent plain
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-25.png" class="rating-star">
-                            <div class="rating-count">35</div>                    
-                    </div>
-                    <div class="product-price">
-                        $12.87
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
-                <div class="products-container">
-                    <div class="product-image-container">
-                        <img class="product-image" src="backpack.jpg" alt="">
-                    </div>
-                    <div class="product-name">
-                        Backpack full of black with 2 holders
-                    </div>
-                    <div class="rating-con">
-                            <img src="rating-40.png" class="rating-star">
-                            <div class="rating-count">87</div>                    
-                    </div>
-                    <div class="product-price">
-                        $65.07
-                      </div>
-                    <div class="products-qty">
-                        <select>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                        </select>
-                    </div>
-                    <button class="add-to-cart-btn">Add to cart</button>
-                </div>
+            <div class="product-grid js-grid">
             </div>
         </div>
     </main>
@@ -465,5 +108,6 @@
                 </div>
               </footer>
               <script src="script.js"></script>
+              <script src="product.js"></script>
 </body>
 </html>
