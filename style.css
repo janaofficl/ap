@@ -28,16 +28,29 @@
   justify-content: space-between;
 }
 .logo-img{
-  display: none;
+  display: block;
+  height: 40px;
+  width: 60px;
 }
 .ul{
     font-size: 25px;
     flex-shrink: 1;
 }
 .ul li{
-    padding-left: 16px;
+    padding-left: 20px;
 }
-
+.cart{
+  position: relative;
+}
+.cart-qty{
+  font-size: 15px;
+  position: absolute;
+  top: -7px;
+  left: 24px;
+}
+a:hover{
+  text-decoration: underline wheat;
+}
 a{
     text-decoration: none;
     color: whitesmoke;
@@ -46,7 +59,16 @@ a{
     cursor: pointer;
 }
 .cart-img{
-  padding-left: 10px;
+  padding-left: 7px;
+  width: 44px;
+}
+.left-section{
+  position: relative;
+}
+.h1{
+  position: absolute;
+  top: 2px;
+  left: 70px;
 }
 .search-bar{
     margin-top: 130px;
